@@ -37,7 +37,7 @@ public class AdaptationServlet extends SlingAllMethodsServlet {
 			/*response.setHeader("Content-Type", "text/html");
 	    	response.getWriter().print(slingReqModel.getMessage()); 
 	    	response.getWriter().close();*/
-			logger.info("Adaptattion DONE");
+			logger.info("Adaptattion DONE"); 
 		} catch (Exception e) {
 			logger.error("{} Exception! ", new Object[] { e.getMessage(), e });
 		}
