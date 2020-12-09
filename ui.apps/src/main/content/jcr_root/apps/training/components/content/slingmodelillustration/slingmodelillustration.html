@@ -1,0 +1,35 @@
+<pre>
+    <pre>
+        <p style="color: red;">Sling Model Illustration Component</p>
+        <sly data-sly-test="${properties.firstName && properties.lastName && properties.technology && properties.title && properties.path}">
+            <pre data-sly-use.sling="${'com.aem.junaid.core.models.UserInfoModel' @ color='red'}">
+            Sling Model Example says:
+            ${sling.userInfo}
+            Resource: ${sling.path}
+            ScriptVariable: ${sling.pagePath}
+            <!--ChildResource: ${sling.childPath}-->
+            ValueMap: ${sling.lastNameValue}
+            ValueMapValue: ${sling.titleValue}
+            <!--ResourcePath: ${sling.pathResource}
+            ResourcePath: ${sling.resourcePath}-->
+            RequestAttribute: ${sling.param}
+            Named: ${sling.slingResourceType}
+            </pre>
+        </sly>
+        <sly data-sly-test="${!properties.firstName || !properties.lastName || !properties.technology || !properties.title || !properties.path}">
+            Please Enter All Dialog Details
+        </sly> 
+    </pre>
+    <pre>
+        <h1>Profile Info</h1>
+        <!--<sly data-sly-use.profile="com.aem.junaid.core.models.Profile">
+            ${profile.name}
+        </sly>-->
+    </pre>
+    <pre>
+        <p>Adaptation Model</p>
+        <div data-sly-use.Adaptation="com.aem.junaid.core.models.AdaptationModel">
+            ${Adaptation.message}
+        </div>
+    </pre>
+</pre>

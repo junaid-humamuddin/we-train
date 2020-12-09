@@ -1,0 +1,24 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.all @ categories='saffm.custom-login'}" />
+
+<div class="panel panel-default">
+    <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
+        <div class="panel-heading cstmPanloginProcess" role="tab" id="headingTwo">
+            <h3 class="panel-title">${properties.headerText} </h3>
+        </div>
+    </span>
+    <input type="hidden" id="redirectURL" value="${properties.buttonURL}">
+    <div id="" class="" role="tabpanel" aria-labelledby="headingTwo">
+        <form class="form-signin">
+        <div class="panel-body">
+            <div>
+                <label>Login Id</label>
+                <input type="TEXT" id="userId" class="form-control">
+                <label>Password</label>
+                <input type="password" id="inputPassword" class="form-control">
+            </div><br>
+            <button id="loginButton" class="btn btn-lg btn-primary btn-block">Sign in</button>
+         </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    cpLocations="[/etc/designs/training]"
+    nodesToCp="[/clientlib-all and /clientlib-site]"
+    readme="This folder is only used to move precreated files into correct locations in the JCR             DO NOT UPDATE FILES HERE. UPDATE sourceLocations AND THEN COPY/PASTE HERE.              THEN CREAT THE CONTENT PACKAGE, CALLED: we.train-design-package.zip"
+    sourceLocations="[/etc/designs/training/]"/>

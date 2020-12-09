@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-11-15T20:45:55.529+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="training/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <title
+            jcr:lastModified="{Date}2019-11-14T18:46:51.298+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="About Us"
+            sling:resourceType="training/components/content/title"
+            title="title"/>
+        <hero
+            jcr:lastModified="{Date}2019-11-15T20:45:55.526+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="training/components/content/hero"
+            fileReference="/content/dam/core-components-examples/library/sample-assets/lava-into-ocean.jpg"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <training jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1584464999603
+                        jcr:lastModified="{Date}2020-03-17T22:56:56.709+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Base Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="we.train.dynamic">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1584464999603>
+                </page>
+            </content>
+        </components>
+    </training>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_182617992417500
+                        jcr:lastModified="{Date}2020-03-17T23:15:44.943+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="General Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,/libs/fd/af/components/guidebutton]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_182617992417500>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

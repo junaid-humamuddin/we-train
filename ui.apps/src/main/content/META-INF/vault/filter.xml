@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/AEM65Project"/>
+	<filter root="/apps/training" />
+    <filter root="/apps/sling" />
+    <filter root="/conf/we-train" />
+	<filter root="/etc/designs/training"/>
+</workspaceFilter>

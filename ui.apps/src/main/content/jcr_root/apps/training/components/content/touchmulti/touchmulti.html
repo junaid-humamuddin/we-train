@@ -1,0 +1,41 @@
+<!--<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.all @ categories='saffm.touchmulti'}" />-->
+
+
+<!--For HTL Provider-->
+Click here to configure  Multi Field User Menu - Java HTL Provider
+<div data-sly-use.multiItems="com.aem.junaid.core.servlets.TouchMultiComponent">
+	<div data-sly-list.head="${multiItems.multiFieldItems}">
+		<p><b>Name:</b> ${head.product}</p>
+		<p><b>Path:</b> ${head.path}</p>
+		<p><b>Date:</b> ${head.date}</p>
+		<p><b>Size:</b> ${head.size}</p>
+		<p><b>CHeckbox:</b> ${head.show}</p>
+	</div>
+</div>
+
+
+<!--For MODEL-->
+<!--Click here to configure  Multi Field User Menu - Sling Model
+<div
+    data-sly-use.multiItems="com.aem.junaid.core.models.Multifield">
+    <div data-sly-list.head="${multiItems.products.listChildren}">
+        <p>
+            <b>Name:</b> ${head.product}
+        </p>
+        <p>
+            <b>Path:</b> ${head.pathbr}
+        </p>
+        <p>
+            <b>Date:</b> 
+                  ${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=head.startDate, timezone='UTC'}
+ 
+        </p>
+        <p>
+            <b>Size:</b> ${head.size}
+        </p>
+        <p>
+            <b>CHeckbox:</b> ${head.show}
+        </p>
+    </div>
+</div>-->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-11-18T20:12:47.048+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/training/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="training/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <hero
+            jcr:lastModified="{Date}2019-11-15T20:35:02.751+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Hero Component"
+            sling:resourceType="training/components/content/hero"
+            fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"/>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2019-11-16T20:13:03.601+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-11-16T20:16:28.253+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>This is a test AEM Text Component&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+        </responsivegrid>
+    </jcr:content>
+    <about-us/>
+    <communities/>
+    <experiences/>
+    <products/>
+</jcr:root>
