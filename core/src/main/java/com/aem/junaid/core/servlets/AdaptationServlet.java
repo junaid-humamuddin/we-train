@@ -19,7 +19,7 @@ import com.aem.junaid.core.models.AdaptationModel;
 		"sling.servlet.selectors=" + "slingAdaptTest" 
 		//"sling.servlet.paths="+ "/bin/training/slingAdaptTest"
 		})
-public class AdaptationServlet extends SlingAllMethodsServlet {  
+public class AdaptationServlet extends SlingAllMethodsServlet {
 
 	private static final long serialVersionUID = 1L;
 	Logger logger = LoggerFactory.getLogger(this.getClass());
